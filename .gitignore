@@ -43,7 +43,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
 
+=======
+>>>>>>> 49edd332db388198c28b69c02993ce81b52de312
 # Local Android config (very important)
 android/local.properties
 
@@ -52,4 +55,9 @@ android/local.properties
 
 # Environment files
 .env
+<<<<<<< HEAD
 .env.*
+=======
+.env.*
+
+>>>>>>> 49edd332db388198c28b69c02993ce81b52de312
