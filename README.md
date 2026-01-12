@@ -1,7 +1,3 @@
-Here's a professional, production-ready README file for your BlueConnect project:
-
-***
-
 # 🔵 BlueConnect
 ### Flutter BLE Scanner with Secure Spring Boot Authentication
 
