@@ -4,7 +4,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class Service {
   final String baseUrl =
-      "https://springboot-register-production.up.railway.app/api"; //http://10.0.2.2:8080/api (for emulator)
+      "https://springboot-register.onrender.com/api"; //http://10.0.2.2:8080/api (for emulator)
 
   // 🔐 LOGIN
   Future<bool> login(String email, String password) async {
