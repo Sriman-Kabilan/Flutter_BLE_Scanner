@@ -49,14 +49,14 @@ Spring Boot REST API (Railway)
 | **Frontend** | Flutter 3.x, Dart, flutter_blue_plus, http, shared_preferences |
 | **Backend** | Spring Boot 3.x, Spring Security, JPA/Hibernate, JWT, Java 17+ |
 | **Database** | MySQL 8.x |
-| **Deployment** | Railway (Backend + DB), GitHub Actions |
+| **Deployment** | Render (Backend) + Railway (DB), GitHub Actions |
 | **Tools** | Postman, Android Studio, VS Code |
 
 ## 🔗 API Documentation
 
 ### Base URL
 ```
-https://springbootregister-production.up.railway.app/api
+[https://springboot-register.onrender.com/api]
 ```
 
 ### Authentication Endpoints
@@ -95,9 +95,9 @@ Content-Type: application/json
 
 ## 🚀 Quick Start
 
-### Backend Setup (Railway - Already Deployed)
+### Backend Setup (Railway - Already Deployed MySQL) & (Render - Deployed Springboot)
 ```
-✅ Live: https://springbootregister-production.up.railway.app/api
+✅ Live: [https://springboot-register.onrender.com/api]
 ✅ Database: MySQL 8.x (Railway managed)
 ```
 
@@ -108,7 +108,7 @@ git clone https://github.com/Sriman-Kabilan/Flutter_BLE_Scanner.git
 cd Flutter_BLE_Scanner
 
 # Update base URL in lib/services/api_service.dart
-const String baseUrl = "https://springbootregister-production.up.railway.app/api";
+const String baseUrl = [https://springboot-register.onrender.com/api];
 
 # Install dependencies
 flutter pub get
